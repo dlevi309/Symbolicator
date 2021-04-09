@@ -26,7 +26,7 @@ Although, I got lucky, in a disassembly￼ session I discovered the a global dom
 
 The preference value for “DisableLogObfuscation“ was revealed within that disassembly, and I after a mass search for any constants ￼containing “Symbolicate“, I was able to find that “SymbolicateCrashLogs“ was a fit.
 
-The package itself just installs the final property list to iOS‘s global preference directory (/var/mobile/Library/Preferences), but in case you‘d rather just add the plist manually, here is an XML representation of the final file:
+The package itself just installs the final property list to iOS‘s global preference directory (/var/mobile/Library/Preferences is the mobile user directory, but I decided to direct the installation path to the root user preference directory /var/root/Library/Preferences. It's proven just as effective and solves an installation issue rather than adding an extra installation script), but in case you‘d rather just add the plist manually, here is an XML representation of the final file:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
