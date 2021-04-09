@@ -28,4 +28,4 @@ How would that even play out in court?
 
 "What property violation is the prosecution￼ specifically accusing the defense of?"
 
-"The very worst of them all, your honor, property lists."
+"The very worst of them your honor, he violated my property list."
