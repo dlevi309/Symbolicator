@@ -1,0 +1,9 @@
+Package: daniel.symbolicator
+Name: Symbolicator
+Section: Development
+Architecture: iphoneos-arm
+Description: Symbolicate all crash logs natively on iOS through a simple addition to NSUserDefaults
+Author: daniel
+Maintainer: daniel
+Depends: firmware (>= 10.0)
+Version: 1.0.0
