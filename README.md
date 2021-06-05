@@ -40,8 +40,8 @@ The package itself just installs the final property list to iOS‘s global prefe
 	<true/>
 	<key>SymbolicateCrashes</key>
 	<true/>
-    <key>ExtraInfo</key>
-    <true/>
+	<key>ExtraInfo</key>
+	<true/>
 </dict>
 </plist>
 ```
