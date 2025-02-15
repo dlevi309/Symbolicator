@@ -1,3 +1,5 @@
+# it's 2025 so I would check out [OSAnalytics](https://github.com/dlevi309/OSAnalytics) instead; Download it from on [PoomSmart's repo](https://poomsmart.github.io)
+
 # Symbolicator
 
 This package enables the ability to natively symbolicate all of your crash logs. 
